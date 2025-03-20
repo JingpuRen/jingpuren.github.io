@@ -78,9 +78,9 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Java',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        {to: '/blog', label: 'Golang', position: 'left'},
         {
           href: 'https://github.com/JingpuRen/my-website',
           label: 'GitHub',
