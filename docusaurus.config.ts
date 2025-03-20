@@ -116,26 +116,30 @@ const config: Config = {
               href: 'https://discordapp.com/invite/docusaurus',
             },
             {
-              label: 'X',
-              href: 'https://x.com/docusaurus',
+              label: 'Twitter',
+              href: 'https://twitter.com/docusaurus',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Social',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
+              label: 'GitHub',
+              href: 'https://github.com/JingpuRen/my-website',
             },
             {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label:"Gitee",
+              href: 'https://gitee.com/JingpuRen/my-website'
+            },
+            {
+              label: 'Bilibili',
+              href: 'https://space.bilibili.com/1222800409?spm_id_from=333.1007.0.0',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Jingpu\'s Website, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
