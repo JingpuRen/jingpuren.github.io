@@ -119,11 +119,11 @@ const config: Config = {
           items: [
             {
               label: 'Java',
-              to: '/docs/java/javaStart',
+              to: '/docs/java/java-start',
             },
             {
               label: 'Golang',
-              to: 'docs/golang/golangStart',
+              to: 'docs/golang/go-start',
             }
           ],
         },
