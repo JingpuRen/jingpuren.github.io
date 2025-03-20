@@ -45,6 +45,9 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
         },
+
+        // 开启博客的代码
+        /*
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -60,6 +63,8 @@ const config: Config = {
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
         },
+         */
+
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -77,13 +82,25 @@ const config: Config = {
         src: 'img/duolaAmeng.jpg',
       },
       items: [
+        // {
+        //   type: 'docSidebar',
+        //   sidebarId: 'tutorialSidebar',
+        //   position: 'left',
+        //   label: 'Java',
+        // },
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'javaSidebar',
           position: 'left',
           label: 'Java',
         },
-        {to: '/blog', label: 'Golang', position: 'left'},
+        {
+          type: 'docSidebar',
+          sidebarId: 'goSidebar',
+          position: 'left',
+          label: 'Golang',
+        },
+        // {to: '/golang', label: 'Golang', position: 'left'},
         {
           type: 'localeDropdown', position: 'right',
         },
@@ -102,11 +119,11 @@ const config: Config = {
           items: [
             {
               label: 'Java',
-              to: '/docs/intro',
+              to: '/docs/java/javaStart',
             },
             {
               label: 'Golang',
-              to: '/blog',
+              to: 'docs/golang/golangStart',
             }
           ],
         },
