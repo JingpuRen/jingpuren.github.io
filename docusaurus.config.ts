@@ -28,8 +28,14 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
+    localeConfigs: {
+      'zh-Hans': {
+        label: '中文',
+        htmlLang: 'zh-CN',
+      },
+    }
   },
 
   presets: [
@@ -82,6 +88,9 @@ const config: Config = {
           label: 'Java',
         },
         {to: '/blog', label: 'Golang', position: 'left'},
+        {
+          type: 'localeDropdown', position: 'right',
+        },
         {
           href: 'https://github.com/JingpuRen/my-website',
           label: 'GitHub',
