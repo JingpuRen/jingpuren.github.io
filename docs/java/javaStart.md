@@ -1,5 +1,8 @@
 ---
-id: java-start
+  id: java-start
+  title: start
+  sidebar_label: javaStart
+  description: start to learn java
 ---
 
-# haha
+# Welcome to java world

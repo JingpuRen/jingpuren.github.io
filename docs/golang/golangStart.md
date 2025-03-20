@@ -1,8 +1,8 @@
 ---
-id: go-start
-title: start
-sidebar_label: golangStart
-description: Create a doc page with rich content.
+  id: go-start
+  title: start
+  sidebar_label: golangStart
+  description: start to learn golang
 ---
 
-# nihao
+# Welcome to golang world
