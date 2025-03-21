@@ -20,6 +20,7 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   projectName: 'JingpuRen.github.io', // Usually your repo name.
   organizationName: 'JingpuRen', // Usually your GitHub org/user name.
+  deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
   onBrokenLinks: 'throw',
