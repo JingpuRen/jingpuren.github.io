@@ -14,11 +14,11 @@ const config: Config = {
   url: 'https://jingpu.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/jingpu-website/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  projectName: 'jingpu-website', // Usually your repo name.
+  projectName: 'jingpuren.github.io', // Usually your repo name.
   organizationName: 'JingpuRen', // Usually your GitHub org/user name.
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
