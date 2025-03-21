@@ -1,8 +1,13 @@
 ---
 id: modify-method
-title: 部署相关
+title: 添加文章
 sidebar_label: 怎么添加文章？
-description: the method to modify the website
+description: 添加文章的方法
+# 设定文章的显示顺序
+sidebar_position: 1
+# 指定标签
+tags:
+  - docusaurus
 ---
 
 # 添加文章
@@ -46,7 +51,13 @@ description: the method to modify the website
 - `sidebar_label` : 侧边栏中显示的名称，譬如这篇文章在侧边栏中的显示名称为**怎么添加文章？**。
 - `description` : 文档的简要说明或摘要，可以显示在搜索引擎中，帮助用户了解文档内容。
 
-:bangbang:注意 : 在创建目录后，一定也要创建出一个**Markdown**文件
+:::warning
+在创建目录后，一定也要创建出一个**Markdown**文件。
+:::
+
+:::tip
+如果不会Markdown相关语法，可以参考这篇**Markdown语法速查表指南** : :link:[Markdown语法速查表](https://www.markdown.cn/docs/cheat-sheet)
+:::
 
 ### 3. 修改根目录下的docusaurus.config.ts文件
 修改前，在`docusaurus.config.ts`文件的`themeConfig`部分中，`item`部分代码如下所示：
