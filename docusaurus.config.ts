@@ -84,12 +84,6 @@ const config: Config = {
         src: 'img/duolaAmeng.jpg',
       },
       items: [
-        // {
-        //   type: 'docSidebar',
-        //   sidebarId: 'tutorialSidebar',
-        //   position: 'left',
-        //   label: 'Java',
-        // },
         {
           type: 'docSidebar',
           sidebarId: 'javaSidebar',
@@ -101,6 +95,11 @@ const config: Config = {
           sidebarId: 'goSidebar',
           position: 'left',
           label: 'Golang',
+        },{
+          type: 'docSidebar',
+          sidebarId: 'deploySidebar',
+          position: 'left',
+          label: '部署',
         },
         // {to: '/golang', label: 'Golang', position: 'left'},
         {
