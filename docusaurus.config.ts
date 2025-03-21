@@ -106,7 +106,7 @@ const config: Config = {
           type: 'localeDropdown', position: 'right',
         },
         {
-          href: 'https://github.com/JingpuRen/my-website',
+          href: 'https://github.com/JingpuRen',
           label: 'GitHub',
           position: 'right',
         },
@@ -150,11 +150,11 @@ const config: Config = {
           items: [
             {
               label: 'GitHub',
-              href: 'https://github.com/JingpuRen/my-website',
+              href: 'https://github.com/JingpuRen',
             },
             {
               label:"Gitee",
-              href: 'https://gitee.com/JingpuRen/my-website'
+              href: 'https://gitee.com/JingpuRen'
             },
             {
               label: 'Bilibili',
