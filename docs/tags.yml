@@ -1,0 +1,4 @@
+docusaurus:
+  label: 'docusaurus'
+  permalink: '/deploy'
+  description: '与Docusaurus框架相关的文档'
