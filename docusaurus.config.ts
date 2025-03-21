@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // @ts-ignore
 const config: Config = {
   title: 'Jingpu\'s Website',
-  tagline: 'Technology is interesting and endless, Join me as we explore!',
+  tagline: 'Technology is interesting and endless, join me as we explore!',
   favicon: 'img/duolaAmeng.jpg',
 
   // Set the production url of your site here
