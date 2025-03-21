@@ -18,7 +18,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  projectName: 'jingpu.github.io', // Usually your repo name.
+  projectName: 'JingpuRen.github.io', // Usually your repo name.
   organizationName: 'JingpuRen', // Usually your GitHub org/user name.
   trailingSlash: false,
 
