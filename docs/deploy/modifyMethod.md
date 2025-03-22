@@ -56,7 +56,7 @@ description: the method to modify the website
 :::
 
 :::tip
-如果不会Markdown相关语法，可以参考这篇**Markdown语法速查表指南** : :link:[Markdown语法速查表](https://www.markdown.cn/docs/cheat-sheet)
+如果不会Markdown相关语法，可以参考这篇**Markdown语法速查表指南** : :link:[Markdown语法速查表](https://markdown.com.cn/cheat-sheet.html)
 :::
 
 ### 3. 修改根目录下的docusaurus.config.ts文件
