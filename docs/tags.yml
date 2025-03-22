@@ -2,3 +2,8 @@ docusaurus:
   label: 'docusaurus'
   permalink: '/deploy'
   description: '与Docusaurus框架相关的文档'
+
+leetcode:
+  label: 'leetcode'
+  permalink: '/leetcode'
+  description: '与Leetcode算法相关的文档'
