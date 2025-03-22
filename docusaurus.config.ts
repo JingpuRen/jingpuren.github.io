@@ -95,11 +95,18 @@ const config: Config = {
           sidebarId: 'goSidebar',
           position: 'left',
           label: 'Golang',
-        },{
+        },
+        {
           type: 'docSidebar',
           sidebarId: 'deploySidebar',
-          position: 'left',
+          position: 'right',
           label: '部署',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'leetcodeSidebar',
+          position: 'left',
+          label: 'Leetcode',
         },
         // {to: '/golang', label: 'Golang', position: 'left'},
         {
@@ -125,6 +132,10 @@ const config: Config = {
             {
               label: 'Golang',
               to: 'docs/golang/go-start',
+            },
+            {
+              label: 'Leetcode',
+              to: 'docs/leetcode/leetcode-start',
             }
           ],
         },
