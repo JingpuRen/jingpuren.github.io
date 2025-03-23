@@ -1,6 +1,6 @@
 ---
 id: N皇后
-title: leetcode-N皇后
+title: N皇后
 sidebar_label: leetcode-N皇后
 description: leetcode题目——N皇后
 # 设定文章的显示顺序
