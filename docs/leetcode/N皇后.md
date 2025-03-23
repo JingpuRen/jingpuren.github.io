@@ -13,7 +13,7 @@ tags:
 # leetcode-N皇后
 
 ### 题干
-![N皇后题目描述](../../static/leetcode/N皇后.png)
+![N皇后题目描述](../../static/leetcode-题干/N皇后.png)
 
 ### 代码实现
 
