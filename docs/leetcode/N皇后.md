@@ -95,4 +95,4 @@ class Solution {
 ```
 
 ### 参考资料
-:link:[leetcode51:N皇后](https://www.bilibili.com/video/BV1Rd4y1c7Bq?spm_id_from=333.788.videopod.sections&vd_source=6ede335d4055bf3e9252d271f861c6e6)
+:link:[leetcode-N皇后](https://www.bilibili.com/video/BV1Rd4y1c7Bq?spm_id_from=333.788.videopod.sections&vd_source=6ede335d4055bf3e9252d271f861c6e6)
