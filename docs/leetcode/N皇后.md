@@ -17,8 +17,7 @@ tags:
 
 ### 代码实现
 
-#### java代码实现
-```java
+```java title="Java Code" showLineNumbers
 class Solution {
     // 答案列表
     List<List<String>> ans;
