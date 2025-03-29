@@ -15,6 +15,9 @@ tags:
 ### 题干
 ![N皇后题目描述](../../static/leetcode-题干/N皇后.png)
 
+### 思路方法
+![思路方法](../../static/leetcode-思路方法/N皇后.png)
+
 ### 代码实现
 
 ```java title="Java Code" showLineNumbers
